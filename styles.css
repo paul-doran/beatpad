@@ -1,0 +1,195 @@
+
+
+body {
+  text-align: center;
+  background-color: black;
+}
+
+/* Title */
+h1 {
+  font-size: 5rem;
+  color: #D9D9D9;
+  font-family: "Arvo", cursive;
+  text-shadow: 4px 0 #00FF00;
+  margin-bottom: 30px;
+}
+
+p {
+color: #D9D9D9;
+font-family: "Roboto", sans-serif;
+font-size: 1.4rem;
+transform: scale(1, .75);
+margin-bottom: 5px;
+}
+
+
+/* Container for everything */
+.console {
+
+height: 840px;
+width: 1215px;
+background-color: #333333;
+border-style: solid;
+border-width: 5px;
+border-color: #808080;
+text-align: center;
+display: inline-block;
+border-radius: 35px;
+margin: 10px 0;
+padding: 78px 78px 78px 40px;
+
+}
+
+/* Logo and Knobs */
+.right-side {
+  float: right;
+  position: relative;
+  right: 0px;
+
+}
+
+.logo {
+height: 165px;
+width: 165px;
+margin: 0 75px 50px 75px;
+float: center;
+
+}
+
+
+
+.knob {
+height: 100px;
+width: 100px;
+margin: 0px 25px 15px 25px;
+
+}
+
+.knob-group-1 {
+  float: left;
+
+}
+
+.knob-group-2 {
+  float: right;
+
+}
+
+
+
+.drum {
+  outline: none;
+  border: 5px solid #00FF00;
+  border-radius: 10px;
+  display: inline;
+  width: 180px;
+  height: 180px;
+  margin: 0 50px 0 50px;
+  background-color: #666666;
+  color: #666666;
+}
+
+.pads {
+float: left;
+margin: 10px 0 50px;
+}
+
+.pad-text {
+margin-bottom: 80px;
+position: relative;
+right: 60px;
+
+}
+
+/* Pad animation */
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.prog {
+float: right;
+position: relative;
+left: 26.5px;
+
+}
+
+.prog-button {
+height: 90px;
+width: 90px;
+
+}
+
+
+.PAD {
+display: inline-block;
+margin: 0 30px 0 15px;
+
+}
+
+.bank {
+margin-top: 0;
+}
+
+.LOOP {
+display: inline-block;
+margin: 0;
+}
+
+.TEMPO {
+display: inline-block;
+margin: 0 15px 0 30px;
+}
+
+.beatpad-text {
+  float: right;
+  position: relative;
+  right: 50px;
+}
+
+h2 {
+color: #D9D9D9;
+font-family: "Roboto", sans-serif;
+font-size: 2.75rem;
+transform: scale(1, .75);
+font-weight: lighter;
+margin: 15px 0 10px;
+letter-spacing: 5px;
+
+
+}
+
+
+.model {
+
+height: 40px;
+width: 122px;
+background-color: #D9D9D9;
+border-radius: 5px;
+text-align: center;
+margin: 0 auto;
+position: relative;
+bottom: 35px;
+
+
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.25rem;
+  transform: scale(1, .65);
+  letter-spacing: 3px;
+  position: relative;
+}
+
+
+
+footer {
+  height: 75px;
+  color: #F5F5F5;;
+  width: 100%;
+  margin: 35px auto 35px;
+  color: #D9D9D9;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
